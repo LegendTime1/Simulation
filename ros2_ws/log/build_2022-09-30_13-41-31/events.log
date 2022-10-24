@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.002591] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.004961] (rover_descrip) JobQueued: {'identifier': 'rover_descrip', 'dependencies': OrderedDict()}
+[0.007388] (sim_1) JobQueued: {'identifier': 'sim_1', 'dependencies': OrderedDict()}
+[0.011588] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.069650] (rover_descrip) JobStarted: {'identifier': 'rover_descrip'}
+[0.095520] (-) TimerEvent: {}
+[0.144617] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.169212] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.179150] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/my_package', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/my_package'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.251117] (-) TimerEvent: {}
+[0.252707] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'cmake'}
+[0.285215] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'build'}
+[0.297261] (rover_descrip) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/rover_descrip', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/rover_descrip', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/rover_descrip'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.353500] (-) TimerEvent: {}
+[0.455681] (-) TimerEvent: {}
+[0.558413] (-) TimerEvent: {}
+[0.661406] (-) TimerEvent: {}
+[0.706072] (rover_descrip) CommandEnded: {'returncode': 0}
+[0.762661] (-) TimerEvent: {}
+[0.774588] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.832123] (my_package) CommandEnded: {'returncode': 0}
+[0.858116] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'install'}
+[0.862913] (-) TimerEvent: {}
+[0.908797] (rover_descrip) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/rover_descrip'], 'cwd': '/root/rosdir/ros2_ws/build/rover_descrip', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/rover_descrip'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.933846] (rover_descrip) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.950552] (rover_descrip) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.972892] (-) TimerEvent: {}
+[0.977280] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/package_run_dependencies/rover_descrip\n'}
+[0.987681] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/parent_prefix_path/rover_descrip\n'}
+[1.001633] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.sh\n'}
+[1.016353] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.dsv\n'}
+[1.027527] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.sh\n'}
+[1.042742] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.dsv\n'}
+[1.057843] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.bash\n'}
+[1.073611] (-) TimerEvent: {}
+[1.076335] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[1.079726] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/my_package'], 'cwd': '/root/rosdir/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/my_package'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[1.089700] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.sh\n'}
+[1.099032] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.zsh\n'}
+[1.105773] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.dsv\n'}
+[1.112777] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.dsv\n'}
+[1.136421] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.154068] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.173903] (-) TimerEvent: {}
+[1.180615] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/lib/my_package/my_node\n'}
+[1.196836] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/packages/rover_descrip\n'}
+[1.203749] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig.cmake\n'}
+[1.214778] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[1.223418] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig-version.cmake\n'}
+[1.233986] (rover_descrip) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.xml\n'}
+[1.258069] (rover_descrip) CommandEnded: {'returncode': 0}
+[1.291213] (-) TimerEvent: {}
+[1.326435] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[1.337024] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[1.348687] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[1.358238] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[1.367815] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[1.375727] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[1.388578] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[1.397536] (-) TimerEvent: {}
+[1.399335] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[1.417557] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[1.435940] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[1.498087] (-) TimerEvent: {}
+[1.561537] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[1.578571] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[1.596838] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[1.605639] (-) TimerEvent: {}
+[1.622852] (my_package) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[1.702402] (my_package) CommandEnded: {'returncode': 0}
+[1.721202] (-) TimerEvent: {}
+[1.828761] (-) TimerEvent: {}
+[1.933340] (-) TimerEvent: {}
+[2.039115] (-) TimerEvent: {}
+[2.142290] (-) TimerEvent: {}
+[2.272541] (-) TimerEvent: {}
+[2.313362] (rover_descrip) JobEnded: {'identifier': 'rover_descrip', 'rc': 0}
+[2.346145] (sim_1) JobStarted: {'identifier': 'sim_1'}
+[2.373300] (-) TimerEvent: {}
+[2.476347] (-) TimerEvent: {}
+[2.579730] (-) TimerEvent: {}
+[2.599903] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[2.631438] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'cmake'}
+[2.644517] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'build'}
+[2.651698] (sim_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/sim_1', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/sim_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/sim_1'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[2.694617] (-) TimerEvent: {}
+[2.796369] (-) TimerEvent: {}
+[2.849493] (sim_1) CommandEnded: {'returncode': 0}
+[2.896987] (-) TimerEvent: {}
+[2.940727] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'install'}
+[2.945124] (sim_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/sim_1'], 'cwd': '/root/rosdir/ros2_ws/build/sim_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/sim_1'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[2.984038] (sim_1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.997516] (-) TimerEvent: {}
+[3.001041] (sim_1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.021352] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/package_run_dependencies/sim_1\n'}
+[3.037796] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/parent_prefix_path/sim_1\n'}
+[3.050545] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.sh\n'}
+[3.062182] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.dsv\n'}
+[3.074471] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.sh\n'}
+[3.086794] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.dsv\n'}
+[3.097614] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.bash\n'}
+[3.105677] (-) TimerEvent: {}
+[3.109070] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.sh\n'}
+[3.120116] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.zsh\n'}
+[3.142939] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.dsv\n'}
+[3.152391] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.dsv\n'}
+[3.206092] (-) TimerEvent: {}
+[3.221043] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/packages/sim_1\n'}
+[3.238629] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config.cmake\n'}
+[3.253614] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config-version.cmake\n'}
+[3.263561] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.xml\n'}
+[3.277120] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/mars.launch.py\n'}
+[3.306516] (-) TimerEvent: {}
+[3.312995] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/mars_sim.launch.py\n'}
+[3.359961] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch\n'}
+[3.376097] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch.py\n'}
+[3.406649] (-) TimerEvent: {}
+[3.508777] (-) TimerEvent: {}
+[3.611636] (-) TimerEvent: {}
+[3.665528] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/.DS_Store\n'}
+[3.677933] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/.DS_Store\n'}
+[3.686987] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/lc_bookshelf.sdf\n'}
+[3.698743] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/.DS_Store\n'}
+[3.709212] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/scripts/bookshelf.material\n'}
+[3.716147] (-) TimerEvent: {}
+[3.719235] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/textures/bookshelf.png\n'}
+[3.736872] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/meshes/bookshelf.dae\n'}
+[3.752079] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/model.config\n'}
+[3.764923] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/.DS_Store\n'}
+[3.776107] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/lc_cabinet.sdf\n'}
+[3.786690] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/.DS_Store\n'}
+[3.797325] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/scripts/cabinet.material\n'}
+[3.809647] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/textures/cabinet.png\n'}
+[3.817134] (-) TimerEvent: {}
+[3.821487] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/meshes/cabinet.dae\n'}
+[3.846834] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/model.config\n'}
+[3.858070] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/.DS_Store\n'}
+[3.874185] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/lc_can.sdf\n'}
+[3.886183] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/.DS_Store\n'}
+[3.899221] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/scripts/can.material\n'}
+[3.910876] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/textures/can.jpg\n'}
+[3.919060] (-) TimerEvent: {}
+[3.924395] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/meshes/can.dae\n'}
+[3.943690] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/model.config\n'}
+[4.000403] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/.DS_Store\n'}
+[4.041207] (-) TimerEvent: {}
+[4.045203] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/lc_floor.sdf\n'}
+[4.138581] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/.DS_Store\n'}
+[4.148553] (-) TimerEvent: {}
+[4.151719] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/scripts/floor.material\n'}
+[4.160738] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/textures/floor.png\n'}
+[4.167926] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/model.config\n'}
+[4.180045] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/.DS_Store\n'}
+[4.192956] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/lc_shelf.sdf\n'}
+[4.206004] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/.DS_Store\n'}
+[4.218931] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/scripts/shelf.material\n'}
+[4.231787] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/textures/shelf.png\n'}
+[4.245590] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/meshes/shelf.dae\n'}
+[4.253816] (-) TimerEvent: {}
+[4.257273] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/model.config\n'}
+[4.273921] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/.DS_Store\n'}
+[4.289188] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/lc_sofa.sdf\n'}
+[4.308112] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/.DS_Store\n'}
+[4.322525] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/scripts/sofa.material\n'}
+[4.336091] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/textures/sofa.png\n'}
+[4.350568] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/meshes/sofa.dae\n'}
+[4.364552] (-) TimerEvent: {}
+[4.368296] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/model.config\n'}
+[4.387910] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/.DS_Store\n'}
+[4.410633] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/lc_table.sdf\n'}
+[4.431671] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/.DS_Store\n'}
+[4.445965] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/scripts/table.material\n'}
+[4.458784] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/textures/table.png\n'}
+[4.470065] (-) TimerEvent: {}
+[4.476120] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/meshes/table.dae\n'}
+[4.488917] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/model.config\n'}
+[4.499434] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/.DS_Store\n'}
+[4.509262] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/lc_tv.sdf\n'}
+[4.519592] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/.DS_Store\n'}
+[4.532845] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/scripts/tv.material\n'}
+[4.549022] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/textures/tv.jpg\n'}
+[4.559312] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/textures/tv_tex.jpeg\n'}
+[4.570150] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/meshes/tv.dae\n'}
+[4.580087] (-) TimerEvent: {}
+[4.585678] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/model.config\n'}
+[4.610326] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/.DS_Store\n'}
+[4.624318] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/lc_tv_stand.sdf\n'}
+[4.637347] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/.DS_Store\n'}
+[4.648955] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/scripts/tv_stand.material\n'}
+[4.660471] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/textures/tv-stand.png\n'}
+[4.671167] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/meshes/tv_stand.dae\n'}
+[4.680203] (-) TimerEvent: {}
+[4.681979] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/model.config\n'}
+[4.711985] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/dem/marsyard_terrain_hm.tif\n'}
+[4.758875] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/dem/marsyard_terrain_texture.png\n'}
+[4.780433] (-) TimerEvent: {}
+[4.819648] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/lava.mtl\n'}
+[4.881450] (-) TimerEvent: {}
+[4.900048] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/lava.obj\n'}
+[4.996483] (-) TimerEvent: {}
+[5.051418] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/rocks_big.mtl\n'}
+[5.092892] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/rocks_big.obj\n'}
+[5.097964] (-) TimerEvent: {}
+[5.138873] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/rocks_medium.mtl\n'}
+[5.189806] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/rocks_medium.obj\n'}
+[5.198219] (-) TimerEvent: {}
+[5.244732] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/textures/fp_natur14l.jpg\n'}
+[5.298410] (-) TimerEvent: {}
+[5.301182] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/textures/fp_rock.jpg\n'}
+[5.344569] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/textures/fp_rock01bt.jpg\n'}
+[5.389564] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/textures/fp_rock_spec.jpg\n'}
+[5.398636] (-) TimerEvent: {}
+[5.457168] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/meshes/textures/fp_soil_02.jpg\n'}
+[5.498934] (-) TimerEvent: {}
+[5.516444] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/model.config\n'}
+[5.556790] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/marsyard2021_terrain/model.sdf\n'}
+[5.599341] (-) TimerEvent: {}
+[5.600824] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/.DS_Store\n'}
+[5.611062] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/chair.sdf\n'}
+[5.632711] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model.dae\n'}
+[5.644709] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2.jpg\n'}
+[5.656694] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_0.jpg\n'}
+[5.667626] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_1.jpg\n'}
+[5.678563] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_2.jpg\n'}
+[5.699717] (-) TimerEvent: {}
+[5.707962] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_3.jpg\n'}
+[5.745661] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_4.jpg\n'}
+[5.793911] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/model.config\n'}
+[5.806721] (-) TimerEvent: {}
+[5.821740] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/my_chair.zip\n'}
+[5.839924] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/.DS_Store\n'}
+[5.855731] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/.DS_Store\n'}
+[5.877504] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/scripts/wall_east.material\n'}
+[5.889910] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/textures/wall-east.png\n'}
+[5.903403] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/meshes/wall-east.dae\n'}
+[5.913634] (-) TimerEvent: {}
+[5.918944] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/model.config\n'}
+[5.943725] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/wallEast.sdf\n'}
+[5.958920] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/.DS_Store\n'}
+[5.975024] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/.DS_Store\n'}
+[5.990395] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/scripts/wall_north.material\n'}
+[6.007637] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/textures/wall-north.png\n'}
+[6.017605] (-) TimerEvent: {}
+[6.025970] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/meshes/wall-north.dae\n'}
+[6.041074] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/model.config\n'}
+[6.053806] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/wallNorth.sdf\n'}
+[6.068583] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/marsyard2021.world\n'}
+[6.117994] (-) TimerEvent: {}
+[6.129539] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/my_world.world\n'}
+[6.141368] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/room.world\n'}
+[6.154803] (sim_1) StdoutLine: {'line': b'-- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/room1.world\n'}
+[6.165936] (sim_1) CommandEnded: {'returncode': 0}
+[6.218321] (-) TimerEvent: {}
+[6.323226] (-) TimerEvent: {}
+[6.429324] (-) TimerEvent: {}
+[6.536131] (-) TimerEvent: {}
+[6.639175] (-) TimerEvent: {}
+[6.741800] (sim_1) JobEnded: {'identifier': 'sim_1', 'rc': 0}
+[6.751671] (-) TimerEvent: {}
+[6.752981] (-) EventReactorShutdown: {}

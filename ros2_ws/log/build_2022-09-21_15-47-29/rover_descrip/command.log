@@ -1,0 +1,6 @@
+Invoking command in '/root/rosdir/ros2_ws/build/rover_descrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/rover_descrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/rover_descrip
+Invoked command in '/root/rosdir/ros2_ws/build/rover_descrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/rover_descrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/rover_descrip
+Invoking command in '/root/rosdir/ros2_ws/build/rover_descrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/rover_descrip -- -j2 -l2
+Invoked command in '/root/rosdir/ros2_ws/build/rover_descrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/rover_descrip -- -j2 -l2
+Invoking command in '/root/rosdir/ros2_ws/build/rover_descrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/rover_descrip
+Invoked command in '/root/rosdir/ros2_ws/build/rover_descrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/rover_descrip

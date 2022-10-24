@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.008223] (-) JobUnselected: {'identifier': 'Rover_description'}
+[0.009509] (-) JobUnselected: {'identifier': 'my_package'}
+[0.010781] (-) JobUnselected: {'identifier': 'sim_1'}
+[0.012554] (rover_descrip) JobQueued: {'identifier': 'rover_descrip', 'dependencies': OrderedDict()}
+[0.015033] (rover_descrip) JobStarted: {'identifier': 'rover_descrip'}
+[0.073641] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'cmake'}
+[0.092432] (rover_descrip) Command: {'cmd': ['/usr/bin/cmake', '/root/rosdir/ros2_ws/src/rover_descrip', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/rover_descrip'], 'cwd': '/root/rosdir/ros2_ws/build/rover_descrip', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rosdir/ros2_ws/src'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/rover_descrip'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.150894] (-) TimerEvent: {}
+[0.201138] (rover_descrip) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.251982] (-) TimerEvent: {}
+[0.356182] (-) TimerEvent: {}
+[0.459497] (-) TimerEvent: {}
+[0.576792] (-) TimerEvent: {}
+[0.762806] (-) TimerEvent: {}
+[0.880541] (-) TimerEvent: {}
+[0.900884] (rover_descrip) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.980793] (-) TimerEvent: {}
+[1.094463] (-) TimerEvent: {}
+[1.149543] (rover_descrip) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.195274] (-) TimerEvent: {}
+[1.298444] (-) TimerEvent: {}
+[1.401338] (-) TimerEvent: {}
+[1.503530] (-) TimerEvent: {}
+[1.613592] (-) TimerEvent: {}
+[1.727735] (-) TimerEvent: {}
+[1.832652] (-) TimerEvent: {}
+[1.942112] (-) TimerEvent: {}
+[1.995159] (rover_descrip) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.007540] (rover_descrip) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.042523] (-) TimerEvent: {}
+[2.101005] (rover_descrip) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.142757] (-) TimerEvent: {}
+[2.245259] (-) TimerEvent: {}
+[2.348331] (-) TimerEvent: {}
+[2.451886] (-) TimerEvent: {}
+[2.461846] (rover_descrip) StdoutLine: {'line': b'-- Generating done\n'}
+[2.552491] (-) TimerEvent: {}
+[2.561223] (rover_descrip) StdoutLine: {'line': b'-- Build files have been written to: /root/rosdir/ros2_ws/build/rover_descrip\n'}
+[2.574845] (rover_descrip) CommandEnded: {'returncode': 0}
+[2.588425] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'build'}
+[2.589762] (rover_descrip) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/rover_descrip', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/rover_descrip', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rosdir/ros2_ws/src'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/rover_descrip'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[2.652883] (-) TimerEvent: {}
+[2.750050] (rover_descrip) CommandEnded: {'returncode': 0}
+[2.761263] (-) TimerEvent: {}
+[2.840954] (rover_descrip) JobProgress: {'identifier': 'rover_descrip', 'progress': 'install'}
+[2.861891] (-) TimerEvent: {}
+[2.869847] (rover_descrip) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/rover_descrip'], 'cwd': '/root/rosdir/ros2_ws/build/rover_descrip', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/rosdir/ros2_ws/src'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/rover_descrip'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[2.908538] (rover_descrip) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.922275] (rover_descrip) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.930360] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/package_run_dependencies/rover_descrip\n'}
+[2.963561] (-) TimerEvent: {}
+[2.969768] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/parent_prefix_path/rover_descrip\n'}
+[3.024339] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.sh\n'}
+[3.063681] (-) TimerEvent: {}
+[3.080365] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.dsv\n'}
+[3.128757] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.sh\n'}
+[3.163891] (-) TimerEvent: {}
+[3.180276] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.dsv\n'}
+[3.242430] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.bash\n'}
+[3.264323] (-) TimerEvent: {}
+[3.290381] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.sh\n'}
+[3.329357] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.zsh\n'}
+[3.364649] (-) TimerEvent: {}
+[3.366696] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.dsv\n'}
+[3.418462] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.dsv\n'}
+[3.459046] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/packages/rover_descrip\n'}
+[3.464861] (-) TimerEvent: {}
+[3.508926] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig.cmake\n'}
+[3.552035] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig-version.cmake\n'}
+[3.565397] (-) TimerEvent: {}
+[3.609271] (rover_descrip) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.xml\n'}
+[3.665857] (-) TimerEvent: {}
+[3.684168] (rover_descrip) CommandEnded: {'returncode': 0}
+[3.766269] (-) TimerEvent: {}
+[3.872588] (-) TimerEvent: {}
+[3.981879] (-) TimerEvent: {}
+[4.087858] (-) TimerEvent: {}
+[4.191273] (-) TimerEvent: {}
+[4.293222] (-) TimerEvent: {}
+[4.399525] (-) TimerEvent: {}
+[4.403408] (rover_descrip) JobEnded: {'identifier': 'rover_descrip', 'rc': 0}
+[4.429731] (-) EventReactorShutdown: {}

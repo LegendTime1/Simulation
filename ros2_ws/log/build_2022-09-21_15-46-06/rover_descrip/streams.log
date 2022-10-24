@@ -1,0 +1,20 @@
+[0.286s] Invoking command in '/root/rosdir/ros2_ws/build/rover_descrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/rover_descrip -- -j2 -l2
+[0.424s] Invoked command in '/root/rosdir/ros2_ws/build/rover_descrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/rover_descrip -- -j2 -l2
+[0.610s] Invoking command in '/root/rosdir/ros2_ws/build/rover_descrip': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/rover_descrip
+[0.680s] -- Install configuration: ""
+[0.692s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/package_run_dependencies/rover_descrip
+[0.702s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/parent_prefix_path/rover_descrip
+[0.713s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.dsv
+[0.735s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.sh
+[0.750s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.dsv
+[0.757s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.bash
+[0.764s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.sh
+[0.777s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.zsh
+[0.788s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.dsv
+[0.795s] -- Installing: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.dsv
+[0.808s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/packages/rover_descrip
+[0.827s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig.cmake
+[0.848s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig-version.cmake
+[0.904s] -- Up-to-date: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.xml
+[0.916s] Invoked command in '/root/rosdir/ros2_ws/build/rover_descrip' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/rover_descrip

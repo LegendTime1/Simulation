@@ -1,0 +1,14 @@
+material floorMat/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture floor.png
+      }
+    }
+  }
+}

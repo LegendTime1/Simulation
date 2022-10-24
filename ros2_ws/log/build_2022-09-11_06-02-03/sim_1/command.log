@@ -1,0 +1,6 @@
+Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/sim_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/sim_1
+Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/sim_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/sim_1
+Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1
+Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1

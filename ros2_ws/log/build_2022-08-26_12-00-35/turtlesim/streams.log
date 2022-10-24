@@ -1,0 +1,39 @@
+[0.223s] Invoking command in '/root/rosdir/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/turtlesim -- -j2 -l2
+[1.199s] [  1%] Built target turtlesim__cpp
+[1.215s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[3.266s] [ 11%] Built target turtlesim__rosidl_generator_c
+[3.427s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[3.698s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[3.878s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[8.862s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[9.315s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[9.752s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[10.055s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[11.792s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_c
+[12.045s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[13.518s] [ 51%] Built target turtlesim__rosidl_typesupport_c
+[13.790s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[14.748s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[17.531s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[17.708s] running egg_info
+[17.716s] writing turtlesim.egg-info/PKG-INFO
+[17.729s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[17.744s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[17.756s] writing top-level names to turtlesim.egg-info/top_level.txt
+[17.863s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[17.897s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[18.327s] [ 71%] Built target ament_cmake_python_build_turtlesim_egg
+[18.504s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[22.911s] [ 73%] Built target turtle_teleop_key
+[23.016s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[26.625s] [ 75%] Built target draw_square
+[26.836s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[27.345s] [ 81%] Built target turtlesim_node
+[27.677s] [ 81%] Built target turtlesim
+[28.010s] [ 82%] Built target turtlesim__py
+[28.240s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[29.561s] gmake[2]: *** [CMakeFiles/mimic.dir/build.make:205: CMakeFiles/mimic.dir/depend] Interrupt
+[29.568s] gmake[1]: *** [CMakeFiles/Makefile2:679: CMakeFiles/mimic.dir/all] Interrupt
+[29.582s] gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:235: CMakeFiles/turtlesim__rosidl_generator_py.dir/depend] Interrupt
+[29.587s] gmake[1]: *** [CMakeFiles/Makefile2:482: CMakeFiles/turtlesim__rosidl_generator_py.dir/all] Interrupt
+[29.593s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="cabinet">
+    <static>true</static>
+    <link name="cabinet_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="cabinet_collision">
+            <pose>0 0 0.1 0 0 0</pose>
+         <geometry>
+	        <box>
+                <size>0.247 0.199 0.505</size>
+            </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>30</mu>
+              <mu2>30</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      
+      <visual name="cabinet_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://lc_cabinet/meshes/cabinet.dae</uri>
+            </mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://lc_cabinet/materials/scripts</uri>
+            <uri>model://lc_cabinet/materials/textures</uri>
+            <name>cabinetMat/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

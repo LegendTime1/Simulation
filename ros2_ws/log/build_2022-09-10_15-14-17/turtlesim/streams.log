@@ -1,0 +1,10 @@
+[0.583s] Invoking command in '/root/rosdir/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/turtlesim -- -j2 -l2
+[1.889s] [  1%] Built target turtlesim__cpp
+[2.154s] [ 11%] Built target turtlesim__rosidl_generator_c
+[2.195s] failed to create symbolic link '/root/rosdir/ros2_ws/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[2.208s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[2.214s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[2.219s] gmake[1]: *** Waiting for unfinished jobs....
+[2.643s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[2.655s] gmake: *** [Makefile:146: all] Error 2
+[2.659s] Invoked command in '/root/rosdir/ros2_ws/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/turtlesim -- -j2 -l2

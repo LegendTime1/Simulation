@@ -1,0 +1,32 @@
+[0.464s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/sim_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/sim_1
+[0.697s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.728s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.046s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.060s] -- Added test 'lint_cmake' to check CMake code style
+[3.160s] -- Added test 'xmllint' to check XML markup files
+[3.319s] -- Configuring done
+[3.871s] -- Generating done
+[4.003s] -- Build files have been written to: /root/rosdir/ros2_ws/build/sim_1
+[4.021s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/sim_1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/sim_1
+[4.045s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[4.953s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[5.980s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1
+[6.155s] -- Install configuration: ""
+[6.172s] -- Execute custom install script
+[6.181s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/package_run_dependencies/sim_1
+[6.466s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/parent_prefix_path/sim_1
+[6.685s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.sh
+[6.857s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.dsv
+[7.113s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.sh
+[7.352s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.dsv
+[7.590s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.bash
+[7.834s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.sh
+[8.050s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.zsh
+[8.263s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.dsv
+[8.449s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.dsv
+[8.657s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/packages/sim_1
+[8.829s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config.cmake
+[9.076s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config-version.cmake
+[9.285s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.xml
+[9.547s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch
+[9.870s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1

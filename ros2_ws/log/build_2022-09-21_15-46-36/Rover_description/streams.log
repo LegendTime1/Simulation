@@ -1,0 +1,29 @@
+[0.227s] Invoking command in '/root/rosdir/ros2_ws/build/Rover_description': /usr/bin/cmake /root/rosdir/ros2_ws/src/Rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/Rover_description
+[0.263s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.293s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.301s]   CMake.
+[0.307s] 
+[0.314s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.325s]   CMake that the project does not need compatibility with older versions.
+[0.332s] 
+[0.338s] [0m
+[0.616s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.623s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.633s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.641s]   CMake did not find one.
+[0.647s] 
+[0.653s]   Could not find a package configuration file provided by "catkin" with any
+[0.659s]   of the following names:
+[0.667s] 
+[0.675s]     catkinConfig.cmake
+[0.685s]     catkin-config.cmake
+[0.701s] 
+[0.714s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.723s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.732s]   provides a separate development package or SDK, be sure it has been
+[0.745s]   installed.
+[0.758s] 
+[0.767s] [0m
+[0.787s] -- Configuring incomplete, errors occurred!
+[0.804s] See also "/root/rosdir/ros2_ws/build/Rover_description/CMakeFiles/CMakeOutput.log".
+[0.808s] Invoked command in '/root/rosdir/ros2_ws/build/Rover_description' returned '1': /usr/bin/cmake /root/rosdir/ros2_ws/src/Rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/Rover_description

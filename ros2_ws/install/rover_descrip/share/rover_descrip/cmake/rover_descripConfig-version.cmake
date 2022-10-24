@@ -1,0 +1,1 @@
+/root/rosdir/ros2_ws/build/rover_descrip/ament_cmake_core/rover_descripConfig-version.cmake

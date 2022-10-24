@@ -1,0 +1,14 @@
+material tvStandMat/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture tv-stand.png
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+material cabinetMat/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture cabinet.png
+      }
+    }
+  }
+}

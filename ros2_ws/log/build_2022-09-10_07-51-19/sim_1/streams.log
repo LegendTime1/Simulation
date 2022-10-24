@@ -1,0 +1,43 @@
+[0.243s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[0.505s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.330s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.676s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.861s] -- Added test 'lint_cmake' to check CMake code style
+[3.044s] -- Added test 'xmllint' to check XML markup files
+[3.177s] -- Configuring done
+[3.659s] -- Generating done
+[3.782s] -- Build files have been written to: /root/rosdir/ros2_ws/build/sim_1
+[4.008s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[4.329s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1
+[4.366s] -- Install configuration: ""
+[4.383s] -- Execute custom install script
+[4.416s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/package_run_dependencies/sim_1
+[4.430s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/parent_prefix_path/sim_1
+[4.463s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.sh
+[4.488s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.dsv
+[4.508s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.sh
+[4.522s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.dsv
+[4.535s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.bash
+[4.553s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.sh
+[4.580s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.zsh
+[4.596s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.dsv
+[4.611s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.dsv
+[4.723s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/packages/sim_1
+[4.743s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config.cmake
+[4.755s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config-version.cmake
+[4.788s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.xml
+[4.831s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch
+[4.865s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/.DS_Store
+[4.960s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/.DS_Store
+[5.071s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/chair.sdf
+[5.327s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model.dae
+[5.482s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2.jpg
+[5.675s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_0.jpg
+[5.772s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_1.jpg
+[5.956s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_2.jpg
+[6.077s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_3.jpg
+[6.160s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_4.jpg
+[6.261s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/model.config
+[6.375s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/my_chair.zip
+[6.512s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/my_world.world
+[6.704s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1

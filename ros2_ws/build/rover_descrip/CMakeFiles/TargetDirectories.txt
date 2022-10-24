@@ -1,0 +1,9 @@
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/uninstall.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/rover_descrip_uninstall.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/test.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/edit_cache.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/rebuild_cache.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/list_install_components.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/install.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/install/local.dir
+/root/rosdir/ros2_ws/build/rover_descrip/CMakeFiles/install/strip.dir

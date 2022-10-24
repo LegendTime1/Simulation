@@ -1,0 +1,2 @@
+Invoking command in '/root/rosdir/ros2_ws/build/Rover_description': /usr/bin/cmake /root/rosdir/ros2_ws/src/Rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/Rover_description
+Invoked command in '/root/rosdir/ros2_ws/build/Rover_description' returned '1': /usr/bin/cmake /root/rosdir/ros2_ws/src/Rover_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/Rover_description

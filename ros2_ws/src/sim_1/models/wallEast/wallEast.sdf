@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="east_wall">
+    <static>true</static>
+    <link name="east_wall_link">
+      <collision name="east_collision">
+        <pose>0 0 1 0 1.5708 3.14</pose>
+        <geometry>
+          <box>
+            <size>1.92 3.55 0.3</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="east_visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://wallEast/meshes/wall-east.dae</uri>
+            </mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://wallEast/materials/scripts</uri>
+            <uri>model://wallEast/materials/textures</uri>
+            <name>wallEastMat/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

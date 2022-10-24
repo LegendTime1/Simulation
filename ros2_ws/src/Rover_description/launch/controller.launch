@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find Rover_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Rover" args="Rev75_position_controller Rev76_position_controller Ball77_position_controller Ball80_position_controller Ball81_position_controller Ball82_position_controller Rev83_position_controller Rev90_position_controller Rev91_position_controller Rev92_position_controller Rev93_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/Rover/joint_states"/>
+</node>
+
+</launch>

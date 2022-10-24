@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tv-stand">
+    <static>true</static>
+    <link name="tv_stand_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="tv_stand_collision">
+         <geometry>
+	          <box>
+                <size>3.9 .44 .34</size>
+            </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      
+      <visual name="tv_stand_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://lc_tv_stand/meshes/tv_stand.dae</uri>
+            </mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://lc_tv_stand/materials/scripts</uri>
+            <uri>model://lc_tv_stand/materials/textures</uri>
+            <name>tvStandMat/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

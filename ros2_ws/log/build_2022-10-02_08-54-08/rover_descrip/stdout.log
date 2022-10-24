@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/package_run_dependencies/rover_descrip
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/parent_prefix_path/rover_descrip
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.sh
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/environment/path.dsv
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.bash
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.sh
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.zsh
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/local_setup.dsv
+-- Symlinking: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.dsv
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/ament_index/resource_index/packages/rover_descrip
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig.cmake
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/cmake/rover_descripConfig-version.cmake
+-- Up-to-date symlink: /root/rosdir/ros2_ws/install/rover_descrip/share/rover_descrip/package.xml

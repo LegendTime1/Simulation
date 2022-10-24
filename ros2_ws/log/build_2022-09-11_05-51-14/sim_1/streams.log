@@ -1,0 +1,113 @@
+[0.328s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[1.275s] Invoked command in '/root/rosdir/ros2_ws/build/sim_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/sim_1 -- -j2 -l2
+[1.532s] Invoking command in '/root/rosdir/ros2_ws/build/sim_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/sim_1
+[1.696s] -- Install configuration: ""
+[1.831s] -- Execute custom install script
+[1.858s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/package_run_dependencies/sim_1
+[1.879s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/parent_prefix_path/sim_1
+[1.897s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.sh
+[1.917s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.dsv
+[1.928s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.sh
+[1.943s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.dsv
+[1.966s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.bash
+[1.988s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.sh
+[2.013s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.zsh
+[2.029s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.dsv
+[2.045s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.dsv
+[2.098s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/packages/sim_1
+[2.130s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config.cmake
+[2.192s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config-version.cmake
+[2.219s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.xml
+[2.252s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch
+[2.281s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch.py
+[2.790s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/.DS_Store
+[2.810s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/.DS_Store
+[2.952s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/lc_bookshelf.sdf
+[3.077s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/.DS_Store
+[3.198s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/scripts/bookshelf.material
+[3.234s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/materials/textures/bookshelf.png
+[3.308s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/meshes/bookshelf.dae
+[3.388s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_bookshelf/model.config
+[3.485s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/.DS_Store
+[3.648s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/lc_cabinet.sdf
+[3.720s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/.DS_Store
+[3.831s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/scripts/cabinet.material
+[3.945s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/materials/textures/cabinet.png
+[4.036s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/meshes/cabinet.dae
+[4.214s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_cabinet/model.config
+[4.316s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/.DS_Store
+[4.389s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/lc_can.sdf
+[4.461s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/.DS_Store
+[4.595s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/scripts/can.material
+[4.700s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/materials/textures/can.jpg
+[4.814s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/meshes/can.dae
+[4.977s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_can/model.config
+[5.134s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/.DS_Store
+[5.254s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/lc_floor.sdf
+[5.522s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/.DS_Store
+[5.744s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/scripts/floor.material
+[5.998s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/materials/textures/floor.png
+[6.057s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_floor/model.config
+[6.146s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/.DS_Store
+[6.241s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/lc_shelf.sdf
+[6.331s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/.DS_Store
+[6.529s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/scripts/shelf.material
+[6.609s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/materials/textures/shelf.png
+[6.683s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/meshes/shelf.dae
+[6.870s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_shelf/model.config
+[6.932s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/.DS_Store
+[6.992s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/lc_sofa.sdf
+[7.060s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/.DS_Store
+[7.177s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/scripts/sofa.material
+[7.239s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/materials/textures/sofa.png
+[7.316s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/meshes/sofa.dae
+[7.387s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_sofa/model.config
+[7.479s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/.DS_Store
+[7.607s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/lc_table.sdf
+[7.760s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/.DS_Store
+[7.905s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/scripts/table.material
+[8.052s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/materials/textures/table.png
+[8.123s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/meshes/table.dae
+[8.193s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_table/model.config
+[8.287s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/.DS_Store
+[8.371s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/lc_tv.sdf
+[8.458s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/.DS_Store
+[8.528s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/scripts/tv.material
+[8.611s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/textures/tv.jpg
+[8.700s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/materials/textures/tv_tex.jpeg
+[8.786s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/meshes/tv.dae
+[8.899s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv/model.config
+[8.992s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/.DS_Store
+[9.109s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/lc_tv_stand.sdf
+[9.247s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/.DS_Store
+[9.490s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/scripts/tv_stand.material
+[9.629s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/materials/textures/tv-stand.png
+[9.897s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/meshes/tv_stand.dae
+[9.967s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/lc_tv_stand/model.config
+[10.105s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/.DS_Store
+[10.129s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/chair.sdf
+[10.156s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model.dae
+[10.184s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2.jpg
+[10.195s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_0.jpg
+[10.217s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_1.jpg
+[10.251s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_2.jpg
+[10.275s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_3.jpg
+[10.312s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/meshes/model/_155840_2_4.jpg
+[10.325s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/model.config
+[10.345s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/my_chair/my_chair.zip
+[10.383s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/.DS_Store
+[10.632s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/.DS_Store
+[10.709s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/scripts/wall_east.material
+[10.790s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/materials/textures/wall-east.png
+[10.885s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/meshes/wall-east.dae
+[11.002s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/model.config
+[11.109s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallEast/wallEast.sdf
+[11.191s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/.DS_Store
+[11.282s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/.DS_Store
+[11.390s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/scripts/wall_north.material
+[11.502s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/materials/textures/wall-north.png
+[11.578s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/meshes/wall-north.dae
+[11.640s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/model.config
+[11.691s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/models/wallNorth/wallNorth.sdf
+[11.854s] -- Up-to-date symlink: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/my_world.world
+[11.900s] -- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/worlds/room.world

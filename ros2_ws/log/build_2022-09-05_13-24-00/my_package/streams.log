@@ -1,0 +1,51 @@
+[0.226s] Invoking command in '/root/rosdir/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/my_package
+[1.745s] -- The C compiler identification is GNU 11.2.0
+[2.844s] -- The CXX compiler identification is GNU 11.2.0
+[2.972s] -- Detecting C compiler ABI info
+[4.050s] -- Detecting C compiler ABI info - done
+[4.093s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.100s] -- Detecting C compile features
+[4.112s] -- Detecting C compile features - done
+[4.165s] -- Detecting CXX compiler ABI info
+[5.354s] -- Detecting CXX compiler ABI info - done
+[5.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.412s] -- Detecting CXX compile features
+[5.422s] -- Detecting CXX compile features - done
+[5.545s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.024s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[6.754s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.653s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.660s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/rosdir/ros2_ws/src/my_package/include>
+[7.673s] -- Configured cppcheck exclude dirs and/or files: 
+[7.684s] -- Added test 'lint_cmake' to check CMake code style
+[7.706s] -- Added test 'uncrustify' to check C / C++ code style
+[7.715s] -- Configured uncrustify additional arguments: 
+[7.726s] -- Added test 'xmllint' to check XML markup files
+[7.871s] -- Configuring done
+[8.428s] -- Generating done
+[8.552s] -- Build files have been written to: /root/rosdir/ros2_ws/build/my_package
+[8.563s] Invoked command in '/root/rosdir/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/rosdir/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/my_package
+[8.582s] Invoking command in '/root/rosdir/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/my_package -- -j2 -l2
+[8.820s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[9.169s] [100%] [32m[1mLinking CXX executable my_node[0m
+[9.516s] [100%] Built target my_node
+[9.567s] Invoked command in '/root/rosdir/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/rosdir/ros2_ws/build/my_package -- -j2 -l2
+[9.752s] Invoking command in '/root/rosdir/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/my_package
+[9.779s] -- Install configuration: ""
+[9.805s] -- Installing: /root/rosdir/ros2_ws/install/my_package/lib/my_package/my_node
+[9.861s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[9.937s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[9.997s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[10.029s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[10.065s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[10.106s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[10.143s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[10.178s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[10.210s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[10.257s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[10.296s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.dsv
+[10.339s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[10.381s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[10.419s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[10.459s] -- Installing: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.xml
+[10.525s] Invoked command in '/root/rosdir/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/rosdir/ros2_ws/build/my_package

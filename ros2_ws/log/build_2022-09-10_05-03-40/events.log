@@ -1,0 +1,455 @@
+[0.000000] (-) TimerEvent: {}
+[0.004245] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.006042] (sim_1) JobQueued: {'identifier': 'sim_1', 'dependencies': OrderedDict()}
+[0.007727] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.009097] (urdf_tutorial) JobQueued: {'identifier': 'urdf_tutorial', 'dependencies': OrderedDict()}
+[0.013111] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.095796] (-) TimerEvent: {}
+[0.108565] (sim_1) JobStarted: {'identifier': 'sim_1'}
+[0.198298] (-) TimerEvent: {}
+[0.223924] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.286991] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/root/rosdir/ros2_ws/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/my_package'], 'cwd': '/root/rosdir/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/my_package'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.427206] (-) TimerEvent: {}
+[0.435260] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'cmake'}
+[0.506175] (sim_1) Command: {'cmd': ['/usr/bin/cmake', '/root/rosdir/ros2_ws/src/sim_1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/sim_1'], 'cwd': '/root/rosdir/ros2_ws/build/sim_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/sim_1'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[0.583083] (-) TimerEvent: {}
+[0.688937] (-) TimerEvent: {}
+[0.791701] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.798639] (-) TimerEvent: {}
+[0.803310] (sim_1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.899213] (-) TimerEvent: {}
+[1.001342] (-) TimerEvent: {}
+[1.105192] (-) TimerEvent: {}
+[1.208915] (-) TimerEvent: {}
+[1.312323] (-) TimerEvent: {}
+[1.433122] (-) TimerEvent: {}
+[1.544893] (-) TimerEvent: {}
+[1.651876] (-) TimerEvent: {}
+[1.754196] (-) TimerEvent: {}
+[1.834749] (sim_1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.854688] (-) TimerEvent: {}
+[1.960369] (-) TimerEvent: {}
+[2.023793] (my_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.060500] (-) TimerEvent: {}
+[2.149977] (sim_1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.161025] (-) TimerEvent: {}
+[2.263628] (-) TimerEvent: {}
+[2.310571] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.363907] (-) TimerEvent: {}
+[2.474553] (-) TimerEvent: {}
+[2.578972] (-) TimerEvent: {}
+[2.682736] (-) TimerEvent: {}
+[2.786266] (-) TimerEvent: {}
+[2.889345] (-) TimerEvent: {}
+[2.993505] (-) TimerEvent: {}
+[3.037777] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.044661] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/rosdir/ros2_ws/src/my_package/include>\n'}
+[3.061185] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.071078] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.088743] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.109353] (-) TimerEvent: {}
+[3.121712] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.139128] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.158657] (sim_1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.213338] (-) TimerEvent: {}
+[3.264069] (sim_1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.313614] (-) TimerEvent: {}
+[3.315628] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.414073] (-) TimerEvent: {}
+[3.424577] (sim_1) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.515520] (-) TimerEvent: {}
+[3.625026] (-) TimerEvent: {}
+[3.728583] (-) TimerEvent: {}
+[3.831180] (-) TimerEvent: {}
+[3.934039] (-) TimerEvent: {}
+[3.976229] (sim_1) StdoutLine: {'line': b'-- Generating done\n'}
+[4.034344] (-) TimerEvent: {}
+[4.106507] (sim_1) StdoutLine: {'line': b'-- Build files have been written to: /root/rosdir/ros2_ws/build/sim_1\n'}
+[4.126408] (sim_1) CommandEnded: {'returncode': 0}
+[4.138578] (-) TimerEvent: {}
+[4.141803] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'build'}
+[4.151027] (sim_1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/sim_1', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/sim_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/sim_1'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[4.170610] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.238926] (-) TimerEvent: {}
+[4.332168] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /root/rosdir/ros2_ws/build/my_package\n'}
+[4.340486] (-) TimerEvent: {}
+[4.345005] (my_package) CommandEnded: {'returncode': 0}
+[4.352511] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[4.362560] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/rosdir/ros2_ws/build/my_package', '--', '-j2', '-l2'], 'cwd': '/root/rosdir/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/my_package'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[4.440822] (-) TimerEvent: {}
+[4.545077] (-) TimerEvent: {}
+[4.649569] (-) TimerEvent: {}
+[4.752507] (-) TimerEvent: {}
+[4.854612] (-) TimerEvent: {}
+[4.957128] (-) TimerEvent: {}
+[5.051006] (sim_1) CommandEnded: {'returncode': 0}
+[5.076859] (-) TimerEvent: {}
+[5.182587] (-) TimerEvent: {}
+[5.286846] (-) TimerEvent: {}
+[5.391216] (-) TimerEvent: {}
+[5.494872] (-) TimerEvent: {}
+[5.569581] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[5.595133] (-) TimerEvent: {}
+[5.701772] (-) TimerEvent: {}
+[5.808105] (-) TimerEvent: {}
+[5.899293] (sim_1) JobProgress: {'identifier': 'sim_1', 'progress': 'install'}
+[5.909074] (-) TimerEvent: {}
+[6.012837] (-) TimerEvent: {}
+[6.062484] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[6.071357] (sim_1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/sim_1'], 'cwd': '/root/rosdir/ros2_ws/build/sim_1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/sim_1'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[6.112842] (-) TimerEvent: {}
+[6.223744] (-) TimerEvent: {}
+[6.260020] (sim_1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.277759] (sim_1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.288088] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/package_run_dependencies/sim_1\n'}
+[6.323977] (-) TimerEvent: {}
+[6.353074] (my_package) CommandEnded: {'returncode': 0}
+[6.424708] (-) TimerEvent: {}
+[6.533386] (-) TimerEvent: {}
+[6.571899] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/parent_prefix_path/sim_1\n'}
+[6.634066] (-) TimerEvent: {}
+[6.735994] (-) TimerEvent: {}
+[6.791547] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.sh\n'}
+[6.836823] (-) TimerEvent: {}
+[6.938886] (-) TimerEvent: {}
+[6.961712] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/ament_prefix_path.dsv\n'}
+[7.039224] (-) TimerEvent: {}
+[7.142859] (-) TimerEvent: {}
+[7.215504] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.sh\n'}
+[7.243271] (-) TimerEvent: {}
+[7.348667] (-) TimerEvent: {}
+[7.391681] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[7.397991] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/rosdir/ros2_ws/build/my_package'], 'cwd': '/root/rosdir/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/my_package'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[7.449127] (-) TimerEvent: {}
+[7.455485] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/environment/path.dsv\n'}
+[7.549484] (-) TimerEvent: {}
+[7.617341] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.637873] (my_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.649578] (-) TimerEvent: {}
+[7.656851] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/lib/my_package/my_node\n'}
+[7.694134] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.bash\n'}
+[7.749970] (-) TimerEvent: {}
+[7.852726] (-) TimerEvent: {}
+[7.917700] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.sh\n'}
+[7.953729] (-) TimerEvent: {}
+[7.967197] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[8.053887] (-) TimerEvent: {}
+[8.148291] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.zsh\n'}
+[8.162814] (-) TimerEvent: {}
+[8.205338] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[8.263258] (-) TimerEvent: {}
+[8.361867] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/local_setup.dsv\n'}
+[8.377748] (-) TimerEvent: {}
+[8.381172] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[8.478291] (-) TimerEvent: {}
+[8.553205] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.dsv\n'}
+[8.578810] (-) TimerEvent: {}
+[8.641733] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[8.679076] (-) TimerEvent: {}
+[8.755261] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/ament_index/resource_index/packages/sim_1\n'}
+[8.779281] (-) TimerEvent: {}
+[8.883549] (-) TimerEvent: {}
+[8.917263] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[8.932466] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config.cmake\n'}
+[8.984391] (-) TimerEvent: {}
+[9.088928] (-) TimerEvent: {}
+[9.142816] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[9.179633] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/cmake/sim_1Config-version.cmake\n'}
+[9.188534] (-) TimerEvent: {}
+[9.292045] (-) TimerEvent: {}
+[9.389908] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/package.xml\n'}
+[9.397530] (-) TimerEvent: {}
+[9.412333] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[9.498283] (-) TimerEvent: {}
+[9.604238] (-) TimerEvent: {}
+[9.638158] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[9.651982] (sim_1) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/sim_1/share/sim_1/launch/robo.launch\n'}
+[9.708035] (-) TimerEvent: {}
+[9.815902] (-) TimerEvent: {}
+[9.883814] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[9.916283] (-) TimerEvent: {}
+[9.974184] (sim_1) CommandEnded: {'returncode': 0}
+[10.028633] (-) TimerEvent: {}
+[10.093080] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[10.128935] (-) TimerEvent: {}
+[10.230829] (-) TimerEvent: {}
+[10.314688] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[10.336529] (-) TimerEvent: {}
+[10.440121] (-) TimerEvent: {}
+[10.486172] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[10.540572] (-) TimerEvent: {}
+[10.643343] (-) TimerEvent: {}
+[10.666843] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[10.743572] (-) TimerEvent: {}
+[10.845769] (-) TimerEvent: {}
+[10.872695] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[10.946649] (-) TimerEvent: {}
+[11.044731] (my_package) StdoutLine: {'line': b'-- Symlinking: /root/rosdir/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[11.051396] (-) TimerEvent: {}
+[11.154884] (-) TimerEvent: {}
+[11.260263] (-) TimerEvent: {}
+[11.283080] (sim_1) JobEnded: {'identifier': 'sim_1', 'rc': 0}
+[11.319872] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[11.360874] (-) TimerEvent: {}
+[11.467028] (-) TimerEvent: {}
+[11.514700] (my_package) CommandEnded: {'returncode': 0}
+[11.568280] (-) TimerEvent: {}
+[11.682124] (-) TimerEvent: {}
+[11.788501] (-) TimerEvent: {}
+[11.895844] (-) TimerEvent: {}
+[11.922140] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[11.960215] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/root/rosdir/ros2_ws/src/ros_tutorials/turtlesim', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/turtlesim'], 'cwd': '/root/rosdir/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/turtlesim'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble')]), 'shell': False}
+[12.039030] (-) TimerEvent: {}
+[12.141689] (-) TimerEvent: {}
+[12.244239] (-) TimerEvent: {}
+[12.279361] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[12.345841] (-) TimerEvent: {}
+[12.450060] (-) TimerEvent: {}
+[12.558674] (-) TimerEvent: {}
+[12.666295] (-) TimerEvent: {}
+[12.769319] (-) TimerEvent: {}
+[12.872200] (-) TimerEvent: {}
+[12.975462] (-) TimerEvent: {}
+[13.079981] (-) TimerEvent: {}
+[13.177533] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[13.201029] (-) TimerEvent: {}
+[13.202905] (urdf_tutorial) JobStarted: {'identifier': 'urdf_tutorial'}
+[13.301741] (-) TimerEvent: {}
+[13.326047] (urdf_tutorial) JobProgress: {'identifier': 'urdf_tutorial', 'progress': 'cmake'}
+[13.355044] (urdf_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/root/rosdir/ros2_ws/src/urdf_tutorial', '-DCMAKE_INSTALL_PREFIX=/root/rosdir/ros2_ws/install/urdf_tutorial'], 'cwd': '/root/rosdir/ros2_ws/build/urdf_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('DXCB_FAKE_PLATFORM_NAME_XCB', 'true'), ('LANGUAGE', ''), ('USER', 'root'), ('SUPERVISOR_GROUP_NAME', 'x'), ('HOSTNAME', 'b1fb91a2e011'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/rosdir/ros2_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('D_DISABLE_RT_SCREEN_SCALE', '1'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/root/rosdir/ros2_ws/install:/root/basic_mobile_robot/install'), ('ROS_DISTRO', 'humble'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/root/basic_mobile_robot/models/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUPERVISOR_ENABLED', '1'), ('AMENT_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('SUPERVISOR_SERVER_URL', 'unix:///var/run/supervisor.sock'), ('SUPERVISOR_PROCESS_NAME', 'lxpanel'), ('PWD', '/root/rosdir/ros2_ws/build/urdf_tutorial'), ('QT_QPA_PLATFORM', ''), ('PYTHONPATH', '/root/rosdir/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/rosdir/ros2_ws/install/turtlesim:/root/rosdir/ros2_ws/install/sim_1:/root/rosdir/ros2_ws/install/my_package:/root/basic_mobile_robot/install/basic_mobile_robot')]), 'shell': False}
+[13.419236] (-) TimerEvent: {}
+[13.528648] (-) TimerEvent: {}
+[13.634365] (-) TimerEvent: {}
+[13.738341] (-) TimerEvent: {}
+[13.785122] (turtlesim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[13.838558] (-) TimerEvent: {}
+[13.943257] (-) TimerEvent: {}
+[13.959872] (urdf_tutorial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[13.970577] (urdf_tutorial) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[13.984138] (urdf_tutorial) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[13.999616] (urdf_tutorial) StderrLine: {'line': b'  CMake did not find one.\n'}
+[14.014369] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[14.018978] (urdf_tutorial) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[14.024597] (urdf_tutorial) StderrLine: {'line': b'  of the following names:\n'}
+[14.029986] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[14.035488] (urdf_tutorial) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[14.041813] (urdf_tutorial) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[14.048937] (-) TimerEvent: {}
+[14.051151] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[14.058046] (urdf_tutorial) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[14.064918] (urdf_tutorial) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[14.069777] (urdf_tutorial) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[14.075330] (urdf_tutorial) StderrLine: {'line': b'  installed.\n'}
+[14.086480] (urdf_tutorial) StderrLine: {'line': b'\n'}
+[14.097014] (urdf_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[14.108085] (urdf_tutorial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.113846] (urdf_tutorial) StdoutLine: {'line': b'See also "/root/rosdir/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".\n'}
+[14.120337] (urdf_tutorial) CommandEnded: {'returncode': 1}
+[14.125840] (urdf_tutorial) JobEnded: {'identifier': 'urdf_tutorial', 'rc': 1}
+[14.135887] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[14.141281] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[14.153453] (-) TimerEvent: {}
+[14.255008] (-) TimerEvent: {}
+[14.357959] (-) TimerEvent: {}
+[14.461118] (-) TimerEvent: {}
+[14.533742] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.562005] (-) TimerEvent: {}
+[14.571567] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[14.662408] (-) TimerEvent: {}
+[14.666074] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.762721] (-) TimerEvent: {}
+[14.815116] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.863052] (-) TimerEvent: {}
+[14.967282] (-) TimerEvent: {}
+[15.004324] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.067716] (-) TimerEvent: {}
+[15.171713] (-) TimerEvent: {}
+[15.277797] (-) TimerEvent: {}
+[15.380715] (-) TimerEvent: {}
+[15.485244] (-) TimerEvent: {}
+[15.590571] (-) TimerEvent: {}
+[15.693303] (-) TimerEvent: {}
+[15.795822] (-) TimerEvent: {}
+[15.902050] (-) TimerEvent: {}
+[15.967158] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[16.002562] (-) TimerEvent: {}
+[16.109448] (-) TimerEvent: {}
+[16.213040] (-) TimerEvent: {}
+[16.315232] (-) TimerEvent: {}
+[16.418106] (-) TimerEvent: {}
+[16.458054] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[16.522765] (-) TimerEvent: {}
+[16.540633] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.623069] (-) TimerEvent: {}
+[16.725536] (-) TimerEvent: {}
+[16.827944] (-) TimerEvent: {}
+[16.930333] (-) TimerEvent: {}
+[17.032607] (-) TimerEvent: {}
+[17.135320] (-) TimerEvent: {}
+[17.237050] (-) TimerEvent: {}
+[17.356598] (-) TimerEvent: {}
+[17.463727] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.467904] (-) TimerEvent: {}
+[17.569422] (-) TimerEvent: {}
+[17.672010] (-) TimerEvent: {}
+[17.775052] (-) TimerEvent: {}
+[17.877791] (-) TimerEvent: {}
+[17.958575] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.1 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[17.978310] (-) TimerEvent: {}
+[18.080742] (-) TimerEvent: {}
+[18.183230] (-) TimerEvent: {}
+[18.286696] (-) TimerEvent: {}
+[18.389031] (-) TimerEvent: {}
+[18.414010] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[18.489565] (-) TimerEvent: {}
+[18.493747] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[18.589715] (-) TimerEvent: {}
+[18.692466] (-) TimerEvent: {}
+[18.795088] (-) TimerEvent: {}
+[18.896465] (-) TimerEvent: {}
+[18.998581] (-) TimerEvent: {}
+[19.100950] (-) TimerEvent: {}
+[19.202698] (-) TimerEvent: {}
+[19.307182] (-) TimerEvent: {}
+[19.411878] (-) TimerEvent: {}
+[19.514459] (-) TimerEvent: {}
+[19.616922] (-) TimerEvent: {}
+[19.726187] (-) TimerEvent: {}
+[19.828324] (-) TimerEvent: {}
+[19.931994] (-) TimerEvent: {}
+[20.034946] (-) TimerEvent: {}
+[20.137333] (-) TimerEvent: {}
+[20.241196] (-) TimerEvent: {}
+[20.344250] (-) TimerEvent: {}
+[20.446655] (-) TimerEvent: {}
+[20.549071] (-) TimerEvent: {}
+[20.650880] (-) TimerEvent: {}
+[20.754449] (-) TimerEvent: {}
+[20.817330] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[20.854957] (-) TimerEvent: {}
+[20.958745] (-) TimerEvent: {}
+[21.062302] (-) TimerEvent: {}
+[21.164367] (-) TimerEvent: {}
+[21.266699] (-) TimerEvent: {}
+[21.368538] (-) TimerEvent: {}
+[21.470655] (-) TimerEvent: {}
+[21.573860] (-) TimerEvent: {}
+[21.676586] (-) TimerEvent: {}
+[21.779966] (-) TimerEvent: {}
+[21.882210] (-) TimerEvent: {}
+[21.983960] (-) TimerEvent: {}
+[22.085756] (-) TimerEvent: {}
+[22.189356] (-) TimerEvent: {}
+[22.291321] (-) TimerEvent: {}
+[22.393270] (-) TimerEvent: {}
+[22.495809] (-) TimerEvent: {}
+[22.597808] (-) TimerEvent: {}
+[22.702008] (-) TimerEvent: {}
+[22.803977] (-) TimerEvent: {}
+[22.906148] (-) TimerEvent: {}
+[23.008022] (-) TimerEvent: {}
+[23.109907] (-) TimerEvent: {}
+[23.211734] (-) TimerEvent: {}
+[23.313609] (-) TimerEvent: {}
+[23.415870] (-) TimerEvent: {}
+[23.518144] (-) TimerEvent: {}
+[23.620068] (-) TimerEvent: {}
+[23.722108] (-) TimerEvent: {}
+[23.823735] (-) TimerEvent: {}
+[23.831181] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.924026] (-) TimerEvent: {}
+[24.027699] (-) TimerEvent: {}
+[24.129471] (-) TimerEvent: {}
+[24.231038] (-) TimerEvent: {}
+[24.334045] (-) TimerEvent: {}
+[24.436986] (-) TimerEvent: {}
+[24.538536] (-) TimerEvent: {}
+[24.640281] (-) TimerEvent: {}
+[24.742354] (-) TimerEvent: {}
+[24.843831] (-) TimerEvent: {}
+[24.945722] (-) TimerEvent: {}
+[24.974805] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[25.046124] (-) TimerEvent: {}
+[25.071813] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[25.146508] (-) TimerEvent: {}
+[25.208955] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.214895] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[25.219881] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[25.247054] (-) TimerEvent: {}
+[25.348706] (-) TimerEvent: {}
+[25.450167] (-) TimerEvent: {}
+[25.552005] (-) TimerEvent: {}
+[25.654765] (-) TimerEvent: {}
+[25.756852] (-) TimerEvent: {}
+[25.859427] (-) TimerEvent: {}
+[25.961550] (-) TimerEvent: {}
+[26.063310] (-) TimerEvent: {}
+[26.165295] (-) TimerEvent: {}
+[26.269562] (-) TimerEvent: {}
+[26.371520] (-) TimerEvent: {}
+[26.475766] (-) TimerEvent: {}
+[26.578365] (-) TimerEvent: {}
+[26.681286] (-) TimerEvent: {}
+[26.783568] (-) TimerEvent: {}
+[26.885501] (-) TimerEvent: {}
+[26.987514] (-) TimerEvent: {}
+[27.040451] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[27.087746] (-) TimerEvent: {}
+[27.189544] (-) TimerEvent: {}
+[27.292588] (-) TimerEvent: {}
+[27.396317] (-) TimerEvent: {}
+[27.498453] (-) TimerEvent: {}
+[27.600589] (-) TimerEvent: {}
+[27.704622] (-) TimerEvent: {}
+[27.809305] (-) TimerEvent: {}
+[27.914803] (-) TimerEvent: {}
+[28.016747] (-) TimerEvent: {}
+[28.118557] (-) TimerEvent: {}
+[28.223889] (-) TimerEvent: {}
+[28.326964] (-) TimerEvent: {}
+[28.429377] (-) TimerEvent: {}
+[28.531905] (-) TimerEvent: {}
+[28.634575] (-) TimerEvent: {}
+[28.737449] (-) TimerEvent: {}
+[28.841079] (-) TimerEvent: {}
+[28.943775] (-) TimerEvent: {}
+[29.045998] (-) TimerEvent: {}
+[29.150594] (-) TimerEvent: {}
+[29.253203] (-) TimerEvent: {}
+[29.355383] (-) TimerEvent: {}
+[29.457875] (-) TimerEvent: {}
+[29.560452] (-) TimerEvent: {}
+[29.662568] (-) TimerEvent: {}
+[29.764369] (-) TimerEvent: {}
+[29.866432] (-) TimerEvent: {}
+[29.968220] (-) TimerEvent: {}
+[30.070289] (-) TimerEvent: {}
+[30.172883] (-) TimerEvent: {}
+[30.279622] (-) TimerEvent: {}
+[30.384290] (-) TimerEvent: {}
+[30.486546] (-) TimerEvent: {}
+[30.588632] (-) TimerEvent: {}
+[30.691032] (-) TimerEvent: {}
+[30.793777] (-) TimerEvent: {}
+[30.896131] (-) TimerEvent: {}
+[30.998105] (-) TimerEvent: {}
+[31.100669] (-) TimerEvent: {}
+[31.203332] (-) TimerEvent: {}
+[31.306199] (-) TimerEvent: {}
+[31.409481] (-) TimerEvent: {}
+[31.518347] (-) TimerEvent: {}
+[31.624284] (-) TimerEvent: {}
+[31.726343] (-) TimerEvent: {}
+[31.828468] (-) TimerEvent: {}
+[31.930541] (-) TimerEvent: {}
+[32.032495] (-) TimerEvent: {}
+[32.134506] (-) TimerEvent: {}
+[32.205602] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[32.234831] (-) TimerEvent: {}
+[32.336622] (-) TimerEvent: {}
+[32.438529] (-) TimerEvent: {}
+[32.541999] (-) TimerEvent: {}
+[32.645211] (-) TimerEvent: {}
+[32.673847] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /root/rosdir/ros2_ws/build/turtlesim\n'}
+[32.709922] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 'SIGINT'}
+[32.744316] (-) EventReactorShutdown: {}

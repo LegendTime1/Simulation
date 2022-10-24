@@ -1,0 +1,14 @@
+material wallNorthMat/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall-north.png
+      }
+    }
+  }
+}

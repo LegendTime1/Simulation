@@ -1,0 +1,14 @@
+material wallEastMat/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture wall-east.png
+      }
+    }
+  }
+}

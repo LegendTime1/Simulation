@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="shelf">
+    <static>true</static>
+    <link name="shelf_link">
+        <pose>0 0 0.3 0 0 0</pose>
+        <collision name="shelf_collision">
+         <geometry>
+	          <box>
+                <size>4.01 0.253 0.0175</size>
+            </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      
+      <visual name="shelf_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://lc_shelf/meshes/shelf.dae</uri>
+            </mesh>
+        </geometry>
+	    <material>
+          <script>
+            <uri>model://lc_shelf/materials/scripts</uri>
+            <uri>model://lc_shelf/materials/textures</uri>
+            <name>shelfMat/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

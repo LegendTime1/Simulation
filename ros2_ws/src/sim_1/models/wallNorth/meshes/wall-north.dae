@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>EPHSON</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2018-05-06T05:25:22</created>
+    <modified>2018-05-06T05:25:22</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="wall_yellow-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.6400004 0.4981424 0.1221438 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="wall_yellow-material" name="wall_yellow">
+      <instance_effect url="#wall_yellow-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane-mesh" name="Plane">
+      <mesh>
+        <source id="Plane-mesh-positions">
+          <float_array id="Plane-mesh-positions-array" count="36">-1.731566 -0.01134902 -0.7191219 -2.817953 -0.01134902 -0.7191219 2.343158 -0.01134902 -0.7191219 -2.817953 -0.01134902 1.198536 2.343158 -0.01134902 1.198536 -1.731566 -0.01134902 1.198536 -1.958899 -0.01134902 -0.7191219 -1.958899 -0.01134902 1.198536 -1.731566 -0.1650777 -0.7191219 -1.731566 -0.1650777 1.198536 -1.958899 -0.1650777 -0.7191219 -1.958899 -0.1650777 1.198536</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-normals">
+          <float_array id="Plane-mesh-normals-array" count="9">-1 0 0 0 -1 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-normals-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-map-0">
+          <float_array id="Plane-mesh-map-0-array" count="60">0.9535773 0.4706227 0.9071545 0 0.9535771 0 0 1.53441e-7 0.5790899 0.9999998 5.72063e-7 1 0.5790901 0.4706228 0.8385049 0 0.8385051 0.4706227 0.8385053 0.4706227 0.9071543 0 0.9071545 0.4706227 1 0.4706227 0.9535773 0 0.9999999 0 0.9535773 0.4706227 0.9071547 0.4706227 0.9071545 0 0 1.53441e-7 0.5790894 0 0.5790899 0.9999998 0.5790901 0.4706228 0.5790899 0 0.8385049 0 0.8385053 0.4706227 0.838505 0 0.9071543 0 1 0.4706227 0.9535774 0.4706227 0.9535773 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-map-0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane-mesh-map-1">
+          <float_array id="Plane-mesh-map-1-array" count="60">0.9535773 0.4706227 0.9071545 0 0.9535771 0 0 1.53441e-7 0.5790899 0.9999998 5.72063e-7 1 0.5790901 0.4706228 0.8385049 0 0.8385051 0.4706227 0.8385053 0.4706227 0.9071543 0 0.9071545 0.4706227 1 0.4706227 0.9535773 0 0.9999999 0 0.9535773 0.4706227 0.9071547 0.4706227 0.9071545 0 0 1.53441e-7 0.5790894 0 0.5790899 0.9999998 0.5790901 0.4706228 0.5790899 0 0.8385049 0 0.8385053 0.4706227 0.838505 0 0.9071543 0 1 0.4706227 0.9535774 0.4706227 0.9535773 0</float_array>
+          <technique_common>
+            <accessor source="#Plane-mesh-map-1-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane-mesh-vertices">
+          <input semantic="POSITION" source="#Plane-mesh-positions"/>
+        </vertices>
+        <triangles material="wall_yellow-material" count="10">
+          <input semantic="VERTEX" source="#Plane-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane-mesh-map-0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#Plane-mesh-map-1" offset="2" set="1"/>
+          <p>6 0 0 11 0 1 7 0 2 2 1 3 5 1 4 0 1 5 6 1 6 3 1 7 1 1 8 8 1 9 11 1 10 10 1 11 5 2 12 8 2 13 0 2 14 6 0 15 10 0 16 11 0 17 2 1 18 4 1 19 5 1 20 6 1 21 7 1 22 3 1 23 8 1 24 9 1 25 11 1 26 5 2 27 9 2 28 8 2 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="wall-north" name="wall-north" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plane-mesh" name="wall-north">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="wall_yellow-material" target="#wall_yellow-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

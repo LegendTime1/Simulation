@@ -1,0 +1,51 @@
+Rover_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  Rev75_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev75
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev76_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev76
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Ball77_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Ball77
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Ball80_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Ball80
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Ball81_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Ball81
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Ball82_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Ball82
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev83_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev83
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev90_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev90
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev91_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev91
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev92_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev92
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev93_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev93
+    pid: {p: 100.0, i: 0.01, d: 10.0}

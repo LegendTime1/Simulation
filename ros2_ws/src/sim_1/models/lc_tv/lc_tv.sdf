@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="lc_tv">
+    <static>true</static>
+    <link name="tv_link">
+        <pose>0 0 0 0 0 0</pose>
+        <collision name="tv_collision">
+         <geometry>
+	        <box>
+                <size>1.15 0.16 0.72</size>
+            </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>50</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      
+      <visual name="tv_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://lc_tv/meshes/tv.dae</uri>
+            </mesh>
+        </geometry>
+	    <material>
+          <!--<script>
+            <uri>model://lc_tv/materials/scripts</uri>
+            <uri>model://lc_tv/materials/textures</uri>
+            <name>tv/Diffuse</name>
+          </script>
+          -->
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
